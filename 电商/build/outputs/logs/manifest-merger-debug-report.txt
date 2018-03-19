@@ -1,0 +1,217 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:2:1-74:12
+	package
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:3:5-37
+		INJECTED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml
+		INJECTED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml
+		INJECTED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml
+		INJECTED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:7:5-70
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:8:22-63
+uses-permission#android.permission.CAMERA
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:9:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:11:5-60
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:11:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:12:5-70
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:12:19-67
+application
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:14:5-72:19
+MERGED from [Ele1:pagerSlidingTablibrary:unspecified] /Users/hefuwei/Documents/Ele1/pagerSlidingTablibrary/build/intermediates/bundles/default/AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:design:24.2.1] /Users/hefuwei/.android/build-cache/14e8b46590acb6273eb9a9f28b5e978b239dce49/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] /Users/hefuwei/.android/build-cache/f5c2da422ade345476f5f8470677ff129626b36f/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/hefuwei/.android/build-cache/c4e02b4754be6b4230b384cec09b80f4785d5cca/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/hefuwei/.android/build-cache/c28ca26baa00657e05ebe1e3cc2e7849ffc56dd0/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/hefuwei/.android/build-cache/f13cd7dbf300eaf70f26cd51adc613d532b10551/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/hefuwei/.android/build-cache/678db501978f01789c1b4d3ec9a569ed7aea1c6a/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/hefuwei/.android/build-cache/d3c2c9df5404af37c90681c3278be3aebe168cb3/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/hefuwei/.android/build-cache/dbf548d2570dd78c1957e3b42f3f82181e0842e8/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] /Users/hefuwei/.android/build-cache/ae7032cc5ff65f989388bd129462e4c23a781281/output/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:17:9-41
+	android:allowBackup
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:15:9-35
+	android:icon
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:16:9-41
+	android:theme
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:18:9-40
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:19:9-67
+activity#com.electronicBusiness.activity.LoginActivity
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:20:9-29:20
+	android:screenOrientation
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:23:13-49
+	android:label
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:22:13-45
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:21:13-73
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:24:13-28:29
+action#android.intent.action.MAIN
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:25:17-69
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:25:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:27:17-77
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:27:27-74
+activity#com.electronicBusiness.activity.SettingActivity
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:30:9-32:56
+	android:screenOrientation
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:31:13-49
+	android:launchMode
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:32:13-44
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:30:19-81
+activity#com.electronicBusiness.activity.ConnectionActivity
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:33:9-35:56
+	android:screenOrientation
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:34:13-49
+	android:launchMode
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:35:13-44
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:33:19-84
+activity#com.electronicBusiness.activity.HomeActivity
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:36:9-38:56
+	android:screenOrientation
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:37:13-49
+	android:launchMode
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:36:19-78
+activity#com.electronicBusiness.activity.MipcaActivityCapture
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:39:9-41:56
+	android:screenOrientation
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:40:13-49
+	android:launchMode
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:39:19-86
+activity#com.electronicBusiness.activity.SubmitInfoActivity
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:42:9-44:56
+	android:screenOrientation
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:43:13-49
+	android:launchMode
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:44:13-44
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:42:19-84
+activity#com.electronicBusiness.activity.SelectTypeActivity
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:45:9-47:25
+	android:screenOrientation
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:46:13-49
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:45:19-84
+activity#com.electronicBusiness.activity.UnBindActivity
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:48:9-50:25
+	android:screenOrientation
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:49:13-49
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:48:19-80
+activity#com.electronicBusiness.activity.OrderActivity
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:51:9-53:56
+	android:screenOrientation
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:52:13-49
+	android:launchMode
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:53:13-44
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:51:19-79
+activity#com.electronicBusiness.activity.TaskDetailActivity
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:54:9-56:56
+	android:screenOrientation
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:55:13-49
+	android:launchMode
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:54:19-84
+activity#com.electronicBusiness.activity.BlindActivity
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:57:9-59:56
+	android:screenOrientation
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:58:13-49
+	android:launchMode
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:59:13-44
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:57:19-57
+activity#com.electronicBusiness.activity.ExeCheckActivity
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:60:9-62:56
+	android:screenOrientation
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:61:13-49
+	android:launchMode
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:62:13-44
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:60:19-60
+activity#com.electronicBusiness.activity.EpcDetailActivity
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:63:9-65:56
+	android:screenOrientation
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:64:13-49
+	android:launchMode
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:65:13-44
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:63:19-83
+activity#com.electronicBusiness.activity.SelectHistoryActivity
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:66:9-68:56
+	android:screenOrientation
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:67:13-49
+	android:launchMode
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:68:13-44
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:66:19-87
+activity#com.electronicBusiness.activity.HistoryDetailActivity
+ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:69:9-71:56
+	android:screenOrientation
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:70:13-49
+	android:launchMode
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:71:13-44
+	android:name
+		ADDED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:69:19-87
+uses-sdk
+INJECTED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:24.2.1] /Users/hefuwei/.android/build-cache/14e8b46590acb6273eb9a9f28b5e978b239dce49/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.2.1] /Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.1] /Users/hefuwei/.android/build-cache/f5c2da422ade345476f5f8470677ff129626b36f/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.1] /Users/hefuwei/.android/build-cache/c4e02b4754be6b4230b384cec09b80f4785d5cca/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] /Users/hefuwei/.android/build-cache/c28ca26baa00657e05ebe1e3cc2e7849ffc56dd0/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:24.2.1] /Users/hefuwei/.android/build-cache/f13cd7dbf300eaf70f26cd51adc613d532b10551/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] /Users/hefuwei/.android/build-cache/678db501978f01789c1b4d3ec9a569ed7aea1c6a/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] /Users/hefuwei/.android/build-cache/d3c2c9df5404af37c90681c3278be3aebe168cb3/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.1] /Users/hefuwei/.android/build-cache/549205be02c579d7b7f8028693e241c98949719d/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:24.2.1] /Users/hefuwei/.android/build-cache/dbf548d2570dd78c1957e3b42f3f82181e0842e8/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] /Users/hefuwei/.android/build-cache/ae7032cc5ff65f989388bd129462e4c23a781281/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.1] /Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml
+		INJECTED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml
+		INJECTED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:2:1-74:12 reason: com.astuetz.pagerslidingtabstrip has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:2:1-74:12 reason: com.astuetz.pagerslidingtabstrip has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from /Users/hefuwei/Documents/Ele1/电商/src/main/AndroidManifest.xml:2:1-74:12 reason: com.astuetz.pagerslidingtabstrip requested WRITE_EXTERNAL_STORAGE

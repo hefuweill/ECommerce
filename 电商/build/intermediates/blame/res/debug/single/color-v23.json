@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/hefuwei/.android/build-cache/14e8b46590acb6273eb9a9f28b5e978b239dce49/output/res/color-v23/design_tint_password_toggle.xml"
+    }
+]

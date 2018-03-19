@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="出库"
+            android:gravity="center"
+            android:background="#f0f1ef"
+            android:textSize="18sp"
+            android:textColor="#4fb6e8"/>
+        <ListView
+            android:id="@+id/lv"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </ListView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="2dp"
+            android:visibility="invisible"
+            android:id="@+id/ll"
+            android:gravity="center_horizontal" >
+
+            <TextView
+                android:id="@+id/tv_start"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="开始扫描"
+                android:layout_marginLeft="5dp"
+                android:textSize="14sp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/selector_bt" />
+
+            <TextView
+                android:id="@+id/tv_clear"
+                android:layout_width="0dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="清除数据"
+                android:textSize="14sp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/selector_bt"/>
+
+            <TextView
+                android:id="@+id/tv_orders"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="5dp"
+                android:text="生成订单"
+                android:textSize="14sp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:background="@drawable/selector_bt" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_done"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="15dp"/>
+</RelativeLayout>
+

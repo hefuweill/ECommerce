@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:gravity="center"
+            android:text="编辑"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"/>
+        <include layout="@layout/layout_divide"
+            />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/et_goods_source"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:textColorHint="#9000"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="请输入商品的目的地"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:id="@+id/tv_cancal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_gravity="bottom"
+                android:text="取消"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:gravity="center"
+                android:background="@drawable/selector_bt"/>
+            <TextView
+                android:id="@+id/tv_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="确定"
+                android:layout_marginLeft="15dp"
+                android:textSize="16sp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:background="@drawable/selector_bt" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_bg.png",
+        "source": "/Users/hefuwei/Documents/Ele1/电商/src/main/res/drawable-xxhdpi/ic_bg.png"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_btn_back.png",
+        "source": "/Users/hefuwei/Documents/Ele1/电商/src/main/res/drawable-xxhdpi/icon_btn_back.png"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_launcher.png",
+        "source": "/Users/hefuwei/Documents/Ele1/电商/src/main/res/drawable-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_delete_data.png",
+        "source": "/Users/hefuwei/Documents/Ele1/电商/src/main/res/drawable-xxhdpi/ic_delete_data.png"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_done.png",
+        "source": "/Users/hefuwei/Documents/Ele1/电商/src/main/res/drawable-xxhdpi/ic_done.png"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/drawable-xxhdpi/icon_logo.png",
+        "source": "/Users/hefuwei/Documents/Ele1/电商/src/main/res/drawable-xxhdpi/icon_logo.png"
+    }
+]

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CanDeleteEditText">
+        <attr name="tip" format="string"/>
+        
+    </declare-styleable>
+    <declare-styleable name="CanSeeEditText">
+        <attr name="tip_see" format="string"/>
+        
+    </declare-styleable>
+</resources>

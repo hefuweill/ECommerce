@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.electronicBusiness"
+        minSdkVersion 21
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile project(':pagerSlidingTablibrary')
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:design:24.2.1'
+    compile 'com.google.code.gson:gson:2.3.1'
+    compile files('libs/IvrJackU1.jar')
+    compile files('libs/okhttp-2.7.5.jar')
+    compile files('libs/okio-1.11.0.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+    compile files('libs/zxing.jar')
+}

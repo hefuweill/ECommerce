@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.electronicBusiness.activity.LoginActivity" 
+    android:orientation="vertical"
+    android:background="@drawable/ic_bg"
+   >
+	<RelativeLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="260dp">
+    <ImageView 
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:background="@drawable/logo"
+        android:layout_marginBottom="60dp"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop"
+        android:id="@+id/iv_circle"/>
+    </RelativeLayout>
+    <com.electronicBusiness.view.CanDeleteEditText 
+        app:tip = "用户名"
+        android:id="@+id/et_user"
+        style="@style/Login_et"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/ic_user"/>
+    <View android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#f0f0f0"/>
+    <com.electronicBusiness.view.CanSeeEditText 
+        app:tip_see = "密码"
+        android:id="@+id/et_pass"
+        style="@style/Login_et"/>
+    <Button 
+        android:id="@+id/bt_login"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:padding="6dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@drawable/selector_logintext"
+        android:background="@drawable/selector_login_bt"
+        android:text="登录"/>       
+
+</LinearLayout>

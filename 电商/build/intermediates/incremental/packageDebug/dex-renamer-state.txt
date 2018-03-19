@@ -1,0 +1,7 @@
+#Mon Mar 19 18:33:24 CST 2018
+base.0=/Users/hefuwei/Documents/Ele1/电商/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f753d040144b1ba6fdac6da17070ed6c7dbe3517
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/hefuwei/Documents/Ele1/电商/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4305038dee2b08270a8dbc514ec634cad478e711/classes.dex
+base.1=/Users/hefuwei/Documents/Ele1/电商/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4305038dee2b08270a8dbc514ec634cad478e711
+file.0=/Users/hefuwei/Documents/Ele1/电商/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f753d040144b1ba6fdac6da17070ed6c7dbe3517/classes.dex

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#FFF"
+		android:orientation="vertical" >
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="40dp"
+			android:text="入库"
+			android:gravity="center"
+			android:background="#f0f1ef"
+			android:textSize="18sp"
+			android:textColor="#4fb6e8"/>
+		<include layout="@layout/layout_divide"/>
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:id="@+id/tv2"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_weight="2"
+				android:text="条形码："
+				android:gravity="center"
+				android:paddingBottom="15dp"
+				android:paddingTop="15dp"
+				android:textColor="@android:color/black"
+				android:textSize="18dp" />
+			<RelativeLayout
+				android:layout_width="0dp"
+				android:layout_weight="2"
+				android:layout_gravity="center_vertical"
+				android:layout_height="wrap_content"
+				>
+				<TextView
+					android:visibility="invisible"
+					android:id="@+id/tv_barcode"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="6933266607697"
+					android:textColor="@android:color/black"
+					android:textSize="14dp" />
+				<TextView
+					android:visibility="visible"
+					android:id="@+id/tv_scan"
+					android:paddingLeft="5dp"
+					android:paddingRight="5dp"
+					android:layout_width="wrap_content"
+					android:textSize="14sp"
+					android:layout_height="wrap_content"
+					android:text="点击扫描条形码"
+					android:background="@drawable/selector_bt" />
+			</RelativeLayout>
+
+			<ImageView
+				android:id="@+id/ivbtn1"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="15dp"
+				android:layout_gravity="center_vertical"
+				android:src="@drawable/iv2"
+				/>
+
+		</LinearLayout>
+
+		<include layout="@layout/layout_divide"/>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:text="No"
+				android:textColor="@android:color/black"
+				android:textSize="18dp" />
+
+			<TextView
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:gravity="center"
+				android:text="EPC Data"
+				android:textColor="@android:color/black"
+				android:textSize="18dp" />
+		</LinearLayout>
+
+		<ListView
+			android:id="@+id/lv"
+			android:layout_width="wrap_content"
+			android:layout_height="0dp"
+			android:layout_weight="1" >
+		</ListView>
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal"
+			android:layout_marginBottom="2dp"
+			android:visibility="invisible"
+			android:id="@+id/ll"
+			android:gravity="center_horizontal" >
+
+			<TextView
+				android:id="@+id/tv_start"
+				android:layout_width="0dp"
+				android:layout_marginLeft="15dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom"
+				android:text="开始"
+				android:textSize="16sp"
+				android:paddingLeft="18dp"
+				android:paddingRight="18dp"
+				android:paddingBottom="10dp"
+				android:paddingTop="10dp"
+				android:gravity="center"
+				android:background="@drawable/selector_bt" />
+
+			<TextView
+				android:id="@+id/tv_clear"
+				android:layout_width="0dp"
+				android:layout_weight="1"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom"
+				android:text="清除"
+				android:textSize="16sp"
+				android:paddingLeft="15dp"
+				android:paddingRight="15dp"
+				android:paddingBottom="10dp"
+				android:paddingTop="10dp"
+				android:gravity="center"
+				android:background="@drawable/selector_bt"/>
+
+			<TextView
+				android:id="@+id/tv_bind"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom"
+				android:text="绑定"
+				android:layout_weight="1"
+				android:textSize="16sp"
+				android:paddingLeft="18dp"
+				android:paddingRight="18dp"
+				android:paddingBottom="10dp"
+				android:paddingTop="10dp"
+				android:gravity="center"
+				android:background="@drawable/selector_bt" />
+			<TextView
+				android:id="@+id/tv_unbind"
+				android:layout_width="0dp"
+				android:layout_height="wrap_content"
+				android:layout_gravity="bottom"
+				android:text="解绑"
+				android:layout_weight="1"
+				android:textSize="16sp"
+				android:paddingLeft="10dp"
+				android:paddingRight="10dp"
+				android:paddingBottom="10dp"
+				android:paddingTop="10dp"
+				android:layout_marginRight="15dp"
+				android:gravity="center"
+				android:background="@drawable/selector_bt" />
+		</LinearLayout>
+
+	</LinearLayout>
+	<android.support.design.widget.FloatingActionButton
+		android:id="@+id/fab"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/ic_done"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginBottom="30dp"
+		android:layout_marginRight="15dp"/>
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:minHeight="60dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/tv_taskname"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="任务名称"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+
+        />
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        >
+
+        <TextView
+            android:id="@+id/tv_tasktime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="盘点日期"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/tv_taskstatus"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="状态"
+            android:textSize="14dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

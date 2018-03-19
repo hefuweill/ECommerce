@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/hefuwei/.android/build-cache/14e8b46590acb6273eb9a9f28b5e978b239dce49/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/hefuwei/.android/build-cache/14e8b46590acb6273eb9a9f28b5e978b239dce49/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/anim/reverse_anim.xml",
+        "source": "/Users/hefuwei/Documents/Ele1/电商/src/main/res/anim/reverse_anim.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/anim/rotating.xml",
+        "source": "/Users/hefuwei/Documents/Ele1/电商/src/main/res/anim/rotating.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/hefuwei/.android/build-cache/14e8b46590acb6273eb9a9f28b5e978b239dce49/output/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/hefuwei/.android/build-cache/14e8b46590acb6273eb9a9f28b5e978b239dce49/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/hefuwei/.android/build-cache/c9bc58e678ef9a519e99fad7e08fe3f268430aff/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    }
+]

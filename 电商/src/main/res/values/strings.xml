@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智能仓储管理</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_settings">Settings</string>
+    <string name="end_bind">结束绑定</string>
+    <string name="end_sell">结束扫描</string>
+    <string name="scan_text">将条形码放入框内, 即可自动扫描</string>
+	<string-array name="queryType">
+		<item>所属区域</item>
+		<item>货架编号</item>
+		<item>物资类型</item>
+		<item>物资编号</item>
+		<item>入库时间</item>
+		<item>商品名称</item>
+		<item>定位终端号</item>
+	</string-array>
+	<string-array name="funcs">
+	    <item >入库</item>
+	    <item >盘点</item>
+	    <item >销售</item>
+	    <item >解绑</item>
+	</string-array>
+	<string-array name="stores">
+	    <item >选择门店</item>
+	    <item >中赛</item>
+	    <item >卓尚</item>
+	</string-array>
+	<string name="sCopyright">Copyright © 2014 All rights reverved.</string>
+	<string name="lblEPC">No　　EPC Data</string>
+	<string name="lblTimes">Times</string>
+	<string name="head">这里是HeadView</string>
+	<string name="pull_to_refresh">下拉刷新</string>
+	<string name="release_to_refresh">释放立即刷新</string>
+	<string name="refreshing">正在刷新...</string>
+	<string name="refresh_succeed">刷新成功</string>
+	<string name="refresh_fail">刷新失败</string>
+	<string name="pullup_to_load">上拉加载更多</string>
+	<string name="release_to_load">释放立即加载</string>
+	<string name="loading">正在加载...</string>
+	<string name="load_succeed">加载成功</string>
+	<string name="load_fail">加载失败</string>
+</resources>

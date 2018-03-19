@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_plan_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="盘点测试计划一"
+            android:textColor="#000"
+            android:textSize="18sp" />
+		
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/tv_plan_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#6000"
+                android:text="盲盘" />
+
+            <TextView
+                android:id="@+id/tv_plan_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:textColor="#6000"
+                android:text="2017-1-2 13:20" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_receive_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="31dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/selector_bt_plan_list"
+        android:gravity="center"
+        android:text="领取任务"
+        android:textColor="@drawable/selector_bt_plan_list_color"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_see_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_receive_plan"
+        android:layout_below="@+id/tv_receive_plan"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selector_bt_plan_list"
+        android:gravity="center"
+        android:text="查看详情"
+        android:textColor="@drawable/selector_bt_plan_list_color"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.05dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_see_detail"
+        android:layout_marginTop="4dp"
+        android:background="#000" />
+
+</RelativeLayout>

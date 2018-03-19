@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/hefuwei/Documents/Ele1/电商/libs/xUtils-2.6.14.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="/Users/hefuwei/Documents/Ele1/电商/build/intermediates/transforms/dex/debug/folders/1000/2/xUtils-2.6.14_be0b602e3fb5b6ff1a0d329373a8d4e4f678b906/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hefuwei/Documents/Ele1/电商/libs/okio-1.11.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/hefuwei/Documents/Ele1/电商/build/intermediates/transforms/dex/debug/folders/1000/2/okio-1.11.0_bfa9b6c437c4926c0a8696e37fca7d0f39b204e9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hefuwei/Documents/Ele1/电商/libs/IvrJackU1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fd44eb060e95f18177dba2274b3c52d1909d39d3">
+        <dex dex="/Users/hefuwei/Documents/Ele1/电商/build/intermediates/transforms/dex/debug/folders/1000/2/IvrJackU1_48606551a2ebdff449dfcc77fe60f2156091220d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hefuwei/Documents/Ele1/电商/libs/zxing.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e88c14e6e7daa0fa65172a62b54ee6a16ff4162d">
+        <dex dex="/Users/hefuwei/Documents/Ele1/电商/build/intermediates/transforms/dex/debug/folders/1000/2/zxing_22d8bd1d5d117d6204e001e6650728c1d98416c8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hefuwei/Documents/Ele1/电商/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1058ad220cdeba3e14765a60dd2da96e8adbaf14">
+        <dex dex="/Users/hefuwei/Documents/Ele1/电商/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4305038dee2b08270a8dbc514ec634cad478e711/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hefuwei/Documents/Ele1/电商/libs/okhttp-2.7.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7a15a7db50f86c4b64aa3367424a60e3a325b8f1">
+        <dex dex="/Users/hefuwei/Documents/Ele1/电商/build/intermediates/transforms/dex/debug/folders/1000/2/okhttp-2.7.5_b9d658055693056d309154a3345b8c879adb2bf9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/hefuwei/Documents/Ele1/电商/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/Users/hefuwei/Documents/Ele1/电商/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f753d040144b1ba6fdac6da17070ed6c7dbe3517/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView 
+        android:id="@+id/tv_tip"
+        android:layout_width="60dp"
+        android:layout_height="@dimen/et_height"
+        android:background="@drawable/selector_et"
+        android:gravity="center"
+        android:text="用户名"/>
+    <View 
+        android:layout_width="1dp"
+        android:layout_height="@dimen/et_height"
+        android:background="@color/myGray"/>
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/et_height">
+	    <EditText 
+	        android:id="@+id/et_data"
+	        android:paddingLeft="10dp"
+	        android:background="@color/white"
+	        android:layout_width="match_parent"
+	        android:paddingRight="20dp"
+	        android:text="admin1"
+	        android:singleLine="true"
+	        android:drawablePadding="10dp"
+	        android:layout_height="@dimen/et_height"/>
+	    <ImageView 
+	        android:id="@+id/iv_delete"                                                                                                                                                                                                                                    
+	        android:layout_width="15dp"
+	        android:layout_height="18dp"
+	        android:visibility="invisible"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="8dp"
+	        android:background="@drawable/ic_delete_data"/>
+    
+    </RelativeLayout>
+
+</LinearLayout>

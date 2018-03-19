@@ -1,0 +1,4 @@
+#Mon Mar 19 18:33:24 CST 2018
+base.0=/Users/hefuwei/Documents/Ele1/电商/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4
+renamed.0=classes.dex
+file.0=/Users/hefuwei/Documents/Ele1/电商/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex

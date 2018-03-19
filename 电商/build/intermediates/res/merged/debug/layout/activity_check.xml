@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff" >
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="盘点"
+        android:gravity="center"
+        android:background="#f0f1ef"
+        android:textSize="18sp"
+        android:textColor="#4fb6e8"/>
+    <com.astuetz.PagerSlidingTabStrip
+        xmlns:hfw="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/tab"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_height="45dp"
+        hfw:pstsDividerColor="@color/item_divider"
+        hfw:pstsIndicatorColor="@color/tab_indicator_selected"
+        hfw:pstsIndicatorHeight="3dp"
+        hfw:pstsShouldExpand="true"
+        hfw:pstsSelectedTabTextColor="@color/tab_text_selected"
+        hfw:pstsSelectedTabTextSize="14sp"
+        hfw:pstsTabTextColor="@color/tab_text_normal"
+        hfw:pstsTabTextSize="14sp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

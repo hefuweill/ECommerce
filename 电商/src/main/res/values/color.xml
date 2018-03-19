@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#aaaaaa</color>
+    <color name="light_blue">#6593cb</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color> 
+    <color name="white">#fff</color>
+    <color name="tab_indicator_selected">#4fb6e8</color>
+    <color name="red">#F00</color>
+    <color name="tab_text_selected">#4fb6e8</color>
+    <color name="tab_text_normal">#5000</color>
+    <color name="myGray">#f0f0f0</color>
+    <color name="black">#000</color>
+    <color name="item_divider">#FFF</color>
+    <color name="bg">#66cccccc</color>
+    <color name="item_download_bg">#cccccccc</color>
+    <color name="menu_bg_normal">#f0f1f3</color>
+    <color name="menu_bg_press">#cecece</color>
+    <color name="app_detail_safe_normal">#999999</color>
+    <color name="app_detail_safe_warning">#ff8800</color>
+	<color name="progress">#0294f0</color>
+	<color name="list_divider_color">#DADADA</color>
+	<color name="login_bt_color">#18b4ed</color>
+	<color name="login_bt_color_press">#ffff00</color>
+	
+	<!-- 下拉刷新时，颜色值 -->
+    <color name="swiperefresh_color1">#ff00ddff</color>
+    <color name="swiperefresh_color2">#ffffbb33</color>
+    <color name="swiperefresh_color3">#ffff4444</color>
+    <color name="swiperefresh_color4">#ffaa66cc</color>
+</resources>

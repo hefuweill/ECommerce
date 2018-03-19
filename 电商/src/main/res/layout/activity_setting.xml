@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/myGray" >
+    <TextView 
+        android:id="@+id/iv_back"
+        android:background="@drawable/selector_bar_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:drawableLeft="@drawable/icon_btn_back"
+        android:drawablePadding="5dp"
+        android:paddingRight="2dp"
+        android:clickable="true"
+        android:text="编辑服务器信息"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:gravity="center_vertical"/>
+    <EditText
+        android:id="@+id/et_ip"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/selector_setting_et"
+        android:hint="请输入IP地址"
+        android:singleLine="true"
+        android:textColor="#aaaaaa"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/et_port"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/selector_setting_et"
+        android:hint="请输入端口号"
+        android:singleLine="true"
+        android:textColor="#aaaaaa"
+        android:textSize="15sp" />
+    <Spinner
+        android:id="@+id/sp_app_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/selector_setting_et"
+        android:hint="请输入服务器应用名"
+        android:entries="@array/stores"
+        android:singleLine="true"
+        android:textColor="#aaaaaa"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bt_save"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/selector_login"
+        android:gravity="center"
+        android:text="保存设置"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
