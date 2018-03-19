@@ -1,16 +1,8 @@
 package com.electronicBusiness.activity;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-import rfid.ivrjacku1.IvrJackStatus;
-
 import android.app.AlertDialog;
-import android.app.Service;
 import android.content.Intent;
 import android.os.Handler;
-import android.os.Vibrator;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
@@ -24,8 +16,6 @@ import android.widget.TextView;
 
 import com.electronicBusiness.R;
 import com.electronicBusiness.base.BaseActivity;
-import com.electronicBusiness.base.BaseApplication;
-import com.electronicBusiness.base.BaseApplication.onConnectListener;
 import com.electronicBusiness.domain.ExecutePlanDetailsBean;
 import com.electronicBusiness.domain.ResultBean;
 import com.electronicBusiness.manager.ConfigurationManager;
@@ -38,6 +28,11 @@ import com.google.gson.Gson;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
 import com.squareup.okhttp.Request;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import android.hardware.uhf.magic.reader;
 
 public class ExeCheckActivity extends BaseActivity {
 
@@ -55,9 +50,9 @@ public class ExeCheckActivity extends BaseActivity {
 	private List<String> epcList = new ArrayList<>();
 	private List<String> epcListCopy;
 	private List<ExecutePlanDetailsBean> list;
-	public final int CHANGE_START = 1;
-	public final int CHANGE_STOP = 2;
-	private boolean isReading = true;
+	public final int CHANGE_START = 2;
+	public final int CHANGE_STOP = 3;
+	private boolean isReading = false;
 	@ViewInject(R.id.tv_start)
 	private TextView tv_start;
 	@ViewInject(R.id.tv_submit)
@@ -68,14 +63,20 @@ public class ExeCheckActivity extends BaseActivity {
 	Handler handler = new Handler() {
 		public void handleMessage(android.os.Message msg) {
 			switch (msg.what) {
-			case CHANGE_START:
-				tv_start.setText("开始盘点");
-				isReading = true;
-				break;
-			case CHANGE_STOP:
-				tv_start.setText("暂停盘点");
-				isReading = false;
-				break;
+				case reader.msgreadepc:
+					if(isReading){
+						String epc = (String) msg.obj;
+						reFreshData(epc);
+					}
+					break;
+				case CHANGE_START:
+					tv_start.setText("开始盘点");
+					isReading = false;
+					break;
+				case CHANGE_STOP:
+					tv_start.setText("暂停盘点");
+					isReading = true;
+					break;
 			}
 		};
 	};
@@ -113,28 +114,6 @@ public class ExeCheckActivity extends BaseActivity {
 					}
 				}
 
-			}
-		});
-		BaseApplication.setOnConnectListener(new onConnectListener() {
-
-			@Override
-			public void onStatusChange(IvrJackStatus arg0) {
-			}
-
-			@Override
-			public void onInventory(String arg0) {
-				List<String> data = Arrays.asList(arg0.split(";"));
-				reFreshData(data);
-			}
-				
-			@Override
-			public void onDisconnect() {
-				isReading = true;
-				handler.sendEmptyMessage(CHANGE_START);
-			}
-
-			@Override
-			public void onConnect() {
 			}
 		});
 		tv_clear.setOnClickListener(new OnClickListener() {
@@ -186,54 +165,15 @@ public class ExeCheckActivity extends BaseActivity {
 		});
 		tv_start.setOnClickListener(new OnClickListener() {
 
-			private String mMessage;
-
 			@Override
 			public void onClick(View v) {
-				mMessage = "设备未连接,请先连接设备";
-				new Thread() {
-					public void run() {
-						if (BaseApplication.isConn) {
-							int result = BaseApplication.getService().readEPC(
-									isReading);// true为开启
-							switch (result) {
-							case -1:
-								mMessage = "电池电量低";
-								break;
-							case -2:
-								mMessage = "通讯失败,设备未连接";
-								break;
-							case 0:
-								if (isReading) {
-									mMessage = "开启成功";
-									handler.sendEmptyMessage(CHANGE_STOP);
-								} else {
-									mMessage = "暂停成功";
-									handler.sendEmptyMessage(CHANGE_START);
-								}
-								break;
-							case 1:
-								mMessage = "通讯失败";
-								break;
-							case 2:
-								mMessage = "未知错误";
-								break;
-							default:
-
-							}
-						} else {
-							Vibrator vibrator = (Vibrator) ExeCheckActivity.this.getSystemService(Service.VIBRATOR_SERVICE);
-							vibrator.vibrate(1500);
-						}
-						UIUtils.runOnSafeThread(new Runnable() {
-
-							@Override
-							public void run() {
-								ToastUtils.showToast(mMessage);
-							}
-						});
-					}
-				}.start();
+				if(isReading){
+					reader.StopLoop();
+					handler.sendEmptyMessage(CHANGE_START);
+				}else{
+					reader.ReadtidLablesLoop(12);
+					handler.sendEmptyMessage(CHANGE_STOP);
+				}
 			}
 		});
 	}
@@ -286,5 +226,13 @@ public class ExeCheckActivity extends BaseActivity {
 		bean.setIsBlind(getIntent().getIntExtra("isBlind", 1));
 		bean.setEpc(epcList);
 		return new Gson().toJson(bean);
+	}
+	protected void reFreshData(String data) {
+		if (epcList.contains(data)) {
+			epcList.remove(data);
+			pb.setProgress(epcListCopy.size() - epcList.size());
+			tv_progress.setText((epcListCopy.size() - epcList.size()) + "/" + epcListCopy.size());
+		}
+		mAdapter.notifyDataSetChanged();
 	}
 }

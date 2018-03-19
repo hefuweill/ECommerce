@@ -60,7 +60,400 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f4fac18-9aee-4723-ba80-a38c05a64fe6" name="Default" comment="" />
+    <list default="true" id="2f4fac18-9aee-4723-ba80-a38c05a64fe6" name="Default" comment="[feat]修改设备">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/电商/src/main/jniLibs/armeabi/libuhf-tools.so" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/电商/src/main/res/raw/beep_err.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/电商/src/main/res/raw/beep_ok.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/电商/src/main/res/raw/chimes.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/电商/src/main/res/raw/didi.ogg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/电商/src/main/res/raw/dudu.ogg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/电商/src/main/java/android/hardware/uhf/magic/DevBeep.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/电商/src/main/java/android/hardware/uhf/magic/reader.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/BlindActivity$4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/BlindActivity$5$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/BlindActivity$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/BlindActivity$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity$6$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity$6$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/UnBindActivity$4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/UnBindActivity$5$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/UnBindActivity$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/UnBindActivity$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/base/BaseApplication$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/base/BaseApplication$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/base/BaseApplication$onConnectListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$9$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$9$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$3$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$6$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$6$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/BlindActivity$4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/BlindActivity$5$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/BlindActivity$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/BlindActivity$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity$6$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity$6$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/UnBindActivity$4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/UnBindActivity$5$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/UnBindActivity$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/UnBindActivity$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/base/BaseApplication$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/base/BaseApplication$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/base/BaseApplication$onConnectListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$9$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$9$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$3$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$6$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$6$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/BlindActivity$4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/BlindActivity$5$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/BlindActivity$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/BlindActivity$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity$6$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity$6$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/UnBindActivity$4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/UnBindActivity$5$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/UnBindActivity$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/UnBindActivity$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/base/BaseApplication$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/base/BaseApplication$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/base/BaseApplication$onConnectListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$9$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$9$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$3$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$6$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$6$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/electronicBusiness/base/BaseApplication$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/electronicBusiness/base/BaseApplication$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/electronicBusiness/base/BaseApplication$onConnectListener.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$13.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$9$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$9$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$3$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$3$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$8.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$6$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$6$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$6.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/BlindActivity$4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/BlindActivity$5$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/BlindActivity$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/BlindActivity$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity$6$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity$6$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity$7.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/UnBindActivity$4$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/UnBindActivity$5$1$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/UnBindActivity$5$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/UnBindActivity$5.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_pagerSlidingTablibrary_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_pagerSlidingTablibrary_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_pagerSlidingTablibrary_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_pagerSlidingTablibrary_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_pagerSlidingTablibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_pagerSlidingTablibrary_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_pagerSlidingTablibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_pagerSlidingTablibrary_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_电商_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_电商_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_电商_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_电商_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_电商_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_电商_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pagerSlidingTablibrary/build/outputs/aar/pagerSlidingTablibrary-debug.aar" afterPath="$PROJECT_DIR$/pagerSlidingTablibrary/build/outputs/aar/pagerSlidingTablibrary-debug.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pagerSlidingTablibrary/build/outputs/aar/pagerSlidingTablibrary-release.aar" afterPath="$PROJECT_DIR$/pagerSlidingTablibrary/build/outputs/aar/pagerSlidingTablibrary-release.aar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/R$raw.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/R$string.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/R$style.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/R$styleable.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/BlindActivity$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/BlindActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/BlindActivity$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/BlindActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/BlindActivity$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/BlindActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/BlindActivity$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/BlindActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/BlindActivity.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/BlindActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity$5.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity$6.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/ExeCheckActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/UnBindActivity$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/UnBindActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/UnBindActivity$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/UnBindActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/UnBindActivity$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/UnBindActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/UnBindActivity$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/UnBindActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/UnBindActivity$MyEpcAdapter.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/UnBindActivity$MyEpcAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/UnBindActivity.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/activity/UnBindActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/base/BaseApplication.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/base/BaseApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$10.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$11.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$12.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$5.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$6.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$7.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$8.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$9.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$MyEpcAdapter.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment$MyEpcAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/BindFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$5.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$6.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$7.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$MyEpcAdapter.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment$MyEpcAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/MoveFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$5$1$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$5$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$5$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$5.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$SellAdapter.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment$SellAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/fragment/SaleFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/manager/ConfigurationManager.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/classes/debug/com/electronicBusiness/manager/ConfigurationManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/R$raw.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/R$string.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/R$style.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/R$styleable.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/BlindActivity$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/BlindActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/BlindActivity$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/BlindActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/BlindActivity$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/BlindActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/BlindActivity$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/BlindActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/BlindActivity.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/BlindActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity$5.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity$6.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/ExeCheckActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/UnBindActivity$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/UnBindActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/UnBindActivity$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/UnBindActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/UnBindActivity$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/UnBindActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/UnBindActivity$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/UnBindActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/UnBindActivity$MyEpcAdapter.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/UnBindActivity$MyEpcAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/UnBindActivity.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/activity/UnBindActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/base/BaseApplication.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/base/BaseApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$10.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$11.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$12.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$5.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$6.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$7.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$8.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$9.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$MyEpcAdapter.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment$MyEpcAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/BindFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$5.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$6.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$7.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$MyEpcAdapter.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment$MyEpcAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/MoveFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$5$1$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$5$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$5$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$5.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$SellAdapter.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment$SellAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/fragment/SaleFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/manager/ConfigurationManager.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental-verifier/debug/com/electronicBusiness/manager/ConfigurationManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental/packageDebug/zip-cache/28RRiOex8GAevr++gMGsgRCh6dE=" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental/packageDebug/zip-cache/28RRiOex8GAevr++gMGsgRCh6dE=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/28RRiOex8GAevr++gMGsgRCh6dE=" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/28RRiOex8GAevr++gMGsgRCh6dE=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/instant-run-resources/resources-debug.ir.ap_" afterPath="$PROJECT_DIR$/电商/build/intermediates/instant-run-resources/resources-debug.ir.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/电商/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/split-apk/debug/slices/slice_1.apk" afterPath="$PROJECT_DIR$/电商/build/intermediates/split-apk/debug/slices/slice_1.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/split-apk/debug/slices/slice_2.apk" afterPath="$PROJECT_DIR$/电商/build/intermediates/split-apk/debug/slices/slice_2.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/split-apk/debug/slices/slice_3.apk" afterPath="$PROJECT_DIR$/电商/build/intermediates/split-apk/debug/slices/slice_3.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/split-apk/debug/slices/slice_5.apk" afterPath="$PROJECT_DIR$/电商/build/intermediates/split-apk/debug/slices/slice_5.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/split-apk/debug/slices/slice_6.apk" afterPath="$PROJECT_DIR$/电商/build/intermediates/split-apk/debug/slices/slice_6.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/split-apk/debug/slices/slice_7.apk" afterPath="$PROJECT_DIR$/电商/build/intermediates/split-apk/debug/slices/slice_7.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/dex/debug/folders/1000/5/slice_1/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/R$raw.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/R$string.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/R$style.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/R$styleable.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/BlindActivity$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/BlindActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/BlindActivity$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/BlindActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/BlindActivity$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/BlindActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/BlindActivity$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/BlindActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/BlindActivity.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/BlindActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity$5.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity$6.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/ExeCheckActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/UnBindActivity$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/UnBindActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/UnBindActivity$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/UnBindActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/UnBindActivity$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/UnBindActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/UnBindActivity$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/UnBindActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/UnBindActivity$MyEpcAdapter.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/UnBindActivity$MyEpcAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/UnBindActivity.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/activity/UnBindActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/base/BaseApplication.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/base/BaseApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$10.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$11.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$12.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$5.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$6.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$7.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$8.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$9.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$MyEpcAdapter.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment$MyEpcAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/BindFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$5.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$6.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$7.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$MyEpcAdapter.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment$MyEpcAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/MoveFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$5$1$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$5$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$5$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$5.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$SellAdapter.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment$SellAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/fragment/SaleFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/manager/ConfigurationManager.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/electronicBusiness/manager/ConfigurationManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/electronicBusiness/base/BaseApplication.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_1/com/electronicBusiness/base/BaseApplication.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$10.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$11.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$12.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$5.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$6.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$7.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$8.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$9.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$MyEpcAdapter.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment$MyEpcAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/BindFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$5.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$6.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$7.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$MyEpcAdapter.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment$MyEpcAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/MoveFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$5$1$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$5$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$5$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$5.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$SellAdapter.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment$SellAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_2/com/electronicBusiness/fragment/SaleFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/electronicBusiness/R$raw.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/electronicBusiness/R$raw.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/electronicBusiness/R$string.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/electronicBusiness/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/electronicBusiness/R$style.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/electronicBusiness/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/electronicBusiness/R$styleable.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/electronicBusiness/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/electronicBusiness/manager/ConfigurationManager.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_3/com/electronicBusiness/manager/ConfigurationManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/BlindActivity$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/BlindActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/BlindActivity$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/BlindActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/BlindActivity$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/BlindActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/BlindActivity$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/BlindActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/BlindActivity.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/BlindActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity$5.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity$6.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/ExeCheckActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/UnBindActivity$1.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/UnBindActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/UnBindActivity$2.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/UnBindActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/UnBindActivity$3.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/UnBindActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/UnBindActivity$4.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/UnBindActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/UnBindActivity$MyEpcAdapter.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/UnBindActivity$MyEpcAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/UnBindActivity.class" afterPath="$PROJECT_DIR$/电商/build/intermediates/transforms/instantRunSlicer/debug/folders/1/5/slice_7/com/electronicBusiness/activity/UnBindActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/outputs/apk/电商-debug.apk" afterPath="$PROJECT_DIR$/电商/build/outputs/apk/电商-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pagerSlidingTablibrary/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/pagerSlidingTablibrary/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pagerSlidingTablibrary/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/pagerSlidingTablibrary/build/intermediates/incremental/packageReleaseResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/generated/source/r/debug/com/electronicBusiness/R.java" afterPath="$PROJECT_DIR$/电商/build/generated/source/r/debug/com/electronicBusiness/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/blame/res/debug/single/raw.json" afterPath="$PROJECT_DIR$/电商/build/intermediates/blame/res/debug/single/raw.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental/mergeDebugResources/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental/packageInstantRunResourcesDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/电商/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_dependencies/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_0/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_1/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_2/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_3/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_4/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_5/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_6/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_7/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_8/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/电商/build/intermediates/instant-run-support/debug/package_slice_9/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/电商/build/intermediates/restart-dex/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/电商/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/BlindActivity.java" afterPath="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/BlindActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/ExeCheckActivity.java" afterPath="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/ExeCheckActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/UnBindActivity.java" afterPath="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/UnBindActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/base/BaseApplication.java" afterPath="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/base/BaseApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/BindFragment.java" afterPath="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/BindFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/MoveFragment.java" afterPath="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/MoveFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/SaleFragment.java" afterPath="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/SaleFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/manager/ConfigurationManager.java" afterPath="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/manager/ConfigurationManager.java" />
+    </list>
     <ignored path="Ele.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,7 +483,107 @@
     <favorites_list name="Ele" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="HistoryTaskFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/HistoryTaskFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MoveFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/MoveFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4">
+              <caret line="162" column="5" lean-forward="false" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
+              <folding>
+                <element signature="e#3741#4132#0" expanded="true" />
+                <element signature="e#4131#4132#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SaleFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/SaleFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="202" column="8" lean-forward="false" selection-start-line="202" selection-start-column="8" selection-end-line="204" selection-end-column="9" />
+              <folding>
+                <element signature="e#3572#3835#0" expanded="true" />
+                <element signature="e#3834#3835#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SearchFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/SearchFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SubmitTypeFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/SubmitTypeFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-810">
+              <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigurationManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/manager/ConfigurationManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding>
+                <element signature="e#416#417#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DevBeep.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/电商/src/main/java/android/hardware/uhf/magic/DevBeep.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/base/BaseApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExeCheckActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/ExeCheckActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="133" column="44" lean-forward="false" selection-start-line="133" selection-start-column="44" selection-end-line="133" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -99,6 +592,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>data</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -2594,13 +3092,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/电商/src/main/res/drawable/shape_bt_query_press.xml" />
-        <option value="$PROJECT_DIR$/电商/src/main/res/drawable/selector_bt_query.xml" />
-        <option value="$PROJECT_DIR$/电商/src/main/res/drawable/shape_bt_query_normol.xml" />
-        <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/domain/SelectGoodsMegKeyWord.java" />
-        <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/view/MyView.java" />
-        <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/SaleFragment.java" />
-        <option value="$PROJECT_DIR$/电商/src/main/res/layout/holder_sell_sku.xml" />
         <option value="$PROJECT_DIR$/电商/src/main/res/layout/holder_query.xml" />
         <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/domain/FindMegBean.java" />
         <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/holder/QueryHoler.java" />
@@ -2611,9 +3102,7 @@
         <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/manager/FragmentManager.java" />
         <option value="$PROJECT_DIR$/电商/src/main/res/layout/activity_home.xml" />
         <option value="$PROJECT_DIR$/电商/src/main/res/layout/fragment_bind.xml" />
-        <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/BindFragment.java" />
         <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/domain/MoveBean.java" />
-        <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/MoveFragment.java" />
         <option value="$PROJECT_DIR$/电商/src/main/res/layout/fragment_move.xml" />
         <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/holder/HistoryHolder.java" />
         <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/Pullable.java" />
@@ -2636,7 +3125,6 @@
         <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/CurrentTaskFragment.java" />
         <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/domain/EpcToPositionBean.java" />
         <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/domain/ExecutePlanDetailsBean(1).java" />
-        <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/ExeCheckActivity.java" />
         <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/EpcDetailActivity.java" />
         <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/LoginActivity.java" />
         <option value="$PROJECT_DIR$/电商/src/main/res/layout/activity_epc_detail.xml" />
@@ -2645,6 +3133,16 @@
         <option value="$PROJECT_DIR$/电商/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/电商/src/main/res/layout/activity_order.xml" />
         <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/OrderActivity.java" />
+        <option value="$PROJECT_DIR$/电商/src/main/java/magic/DevBeep.java" />
+        <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/base/BaseApplication.java" />
+        <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/BlindActivity.java" />
+        <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/ExeCheckActivity.java" />
+        <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/UnBindActivity.java" />
+        <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/BindFragment.java" />
+        <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/MoveFragment.java" />
+        <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/SaleFragment.java" />
+        <option value="$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/manager/ConfigurationManager.java" />
+        <option value="$PROJECT_DIR$/电商/src/main/java/android/hardware/uhf/magic/reader.java" />
       </list>
     </option>
   </component>
@@ -2652,7 +3150,9 @@
     <option name="width" value="1920" />
     <option name="height" value="1200" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -2680,6 +3180,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ele1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ele1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="电商" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ele1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ele1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="电商" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ele1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ele1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="电商" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -2702,18 +3264,18 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="S:\AS\Ele1\电商\src\main\res\drawable-xhdpi" />
-      <recent name="F:\Ele1\电商\src\main\java\com\electronicBusiness\domain" />
-      <recent name="F:\Ele1\电商\src\main\res\drawable-hdpi" />
-      <recent name="F:\Ele1\电商\src\main\java\com\electronicBusiness" />
-      <recent name="F:\Ele1\电商\src\main\java\com\electronicBusiness\view" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Ele1\电商\src\main\res\drawable" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.electronicBusiness.fragment" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Ele1\电商\src\main\res\drawable" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/电商/src/main" />
+      <recent name="$PROJECT_DIR$/电商/src/main/res/raw" />
+      <recent name="$PROJECT_DIR$/电商/src/main/java" />
+      <recent name="S:\AS\Ele1\电商\src\main\res\drawable-xhdpi" />
+      <recent name="F:\Ele1\电商\src\main\java\com\electronicBusiness\domain" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2799,7 +3361,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521455870419" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521459679150" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2847,7 +3409,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521455870419" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521459679150" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -3030,7 +3592,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521455870419" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1521459679151" />
       </method>
     </configuration>
     <list size="1">
@@ -3168,24 +3730,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286219" sideWeight="0.4946752" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32773852" sideWeight="0.4946752" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.66431093" sideWeight="0.5021299" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2987897" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36042404" sideWeight="0.4978701" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295053" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3833922" sideWeight="0.4978701" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20979765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20979765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -3200,7 +3764,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2987897" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.49694657" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -3245,6 +3808,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[feat]修改设备" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feat]修改设备" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -3272,146 +3839,12 @@
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/EpcDetailActivity.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="29" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/LoginActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="40" column="42" lean-forward="false" selection-start-line="40" selection-start-column="42" selection-end-line="40" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/res/drawable-xhdpi/fuxuan_input01.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/res/drawable-hdpi/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/res/drawable-xxhdpi/icon_logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/res/drawable-xhdpi/my_logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/res/drawable-xhdpi/fuxuan_input02.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/res/drawable-hdpi/applogo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/res/drawable-xhdpi/applogo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/res/layout/activity_check.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/res/layout/activity_capture.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/res/layout/activity_blind.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="12" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/res/layout/activity_epc_detail.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/res/layout/activity_exe_check.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/res/layout/activity_history_detail.xml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/电商/src/main/res/layout/activity_home.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -3463,6 +3896,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-943">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -3515,64 +3949,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/SearchFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3358">
-          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/SaleFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3979">
-          <caret line="46" column="13" lean-forward="false" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/MoveFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3979">
-          <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/HistoryTaskFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4186">
-          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/CurrentTaskFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1403">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/CheckPlanFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2433">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/CheckFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/EpcDetailActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/电商/src/main/res/layout/activity_order.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1886">
@@ -3597,20 +3973,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/manager/ConfigurationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/SubmitTypeFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
-          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/domain/GoodMegBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -3632,17 +3994,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/ExeCheckActivity.java">
+    <entry file="file://$PROJECT_DIR$/Ele1.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="41" column="13" lean-forward="false" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/OrderActivity.java">
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/BlindActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="369" column="0" lean-forward="false" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
+        <state relative-caret-position="491">
+          <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+          <folding>
+            <element signature="e#1513#1924#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#3784#4047#0" expanded="true" />
+            <element signature="e#4046#4047#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -3650,21 +4019,259 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/BlindActivity.java">
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/EpcDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="217" column="24" lean-forward="false" selection-start-line="217" selection-start-column="24" selection-end-line="217" selection-end-column="24" />
+        <state relative-caret-position="522">
+          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ele1.iml">
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/MipcaActivityCapture.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/OrderActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="369" column="0" lean-forward="false" selection-start-line="369" selection-start-column="0" selection-end-line="369" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/SelectHistoryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1183">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/SelectTypeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-913">
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/SellDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/SettingActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-373">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/SubmitInfoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1813">
+          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/TaskDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-211">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/UnBindActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
+          <folding>
+            <element signature="e#1571#1855#0" expanded="true" />
+            <element signature="e#1854#1855#0" expanded="true" />
+            <element signature="e#3315#3578#0" expanded="true" />
+            <element signature="e#3577#3578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/base/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-121">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/base/BaseFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
+          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/base/BaseHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/base/MyBaseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/res/layout/fragment_bind.xml">
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/BindFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="56" column="14" lean-forward="false" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
+          <folding>
+            <element signature="e#5620#5883#0" expanded="true" />
+            <element signature="e#5882#5883#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/CheckFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-157">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/CheckPlanFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1597">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/CurrentTaskFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1345">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/HistoryTaskFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/MoveFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="162" column="5" lean-forward="false" selection-start-line="162" selection-start-column="5" selection-end-line="162" selection-end-column="5" />
+          <folding>
+            <element signature="e#3741#4132#0" expanded="true" />
+            <element signature="e#4131#4132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/SaleFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="202" column="8" lean-forward="false" selection-start-line="202" selection-start-column="8" selection-end-line="204" selection-end-column="9" />
+          <folding>
+            <element signature="e#3572#3835#0" expanded="true" />
+            <element signature="e#3834#3835#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/SearchFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="43" column="13" lean-forward="false" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/fragment/SubmitTypeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-810">
+          <caret line="33" column="25" lean-forward="false" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/activity/ExeCheckActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="133" column="44" lean-forward="false" selection-start-line="133" selection-start-column="44" selection-end-line="133" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/base/BaseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="26" column="17" lean-forward="false" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/android/hardware/uhf/magic/DevBeep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/android/hardware/uhf/magic/reader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/电商/src/main/java/com/electronicBusiness/manager/ConfigurationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#416#417#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

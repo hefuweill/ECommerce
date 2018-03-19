@@ -1,17 +1,9 @@
 package com.electronicBusiness.fragment;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
-import java.util.List;
-
-import rfid.ivrjacku1.IvrJackStatus;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
-import android.app.Service;
 import android.content.Intent;
 import android.os.Handler;
-import android.os.Vibrator;
 import android.support.design.widget.FloatingActionButton;
 import android.text.TextUtils;
 import android.view.View;
@@ -26,12 +18,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.electronicBusiness.R;
-import com.electronicBusiness.activity.ConnectionActivity;
 import com.electronicBusiness.activity.MipcaActivityCapture;
 import com.electronicBusiness.activity.SubmitInfoActivity;
 import com.electronicBusiness.activity.UnBindActivity;
-import com.electronicBusiness.base.BaseApplication;
-import com.electronicBusiness.base.BaseApplication.onConnectListener;
 import com.electronicBusiness.base.BaseFragment;
 import com.electronicBusiness.base.BaseHolder;
 import com.electronicBusiness.base.MyBaseAdapter;
@@ -50,6 +39,12 @@ import com.google.gson.Gson;
 import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
 import com.squareup.okhttp.Request;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+import android.hardware.uhf.magic.reader;
 
 public class BindFragment extends BaseFragment {
 
@@ -73,28 +68,36 @@ public class BindFragment extends BaseFragment {
 	private FloatingActionButton fab;
 	@ViewInject(R.id.ll)
 	private LinearLayout ll;
-	private boolean isReading = true;
 	private List<String> data = new ArrayList<String>();
 	private MyEpcAdapter mAdapter;
 	private AlertDialog mDialog;
 	private String mSku;
-	public final int CHANGE_START = 1;
-	public final int CHANGE_STOP = 2;
+	public final int CHANGE_START = 2;
+	public final int CHANGE_STOP = 3;
+	private boolean isReading = false;
 	private AlertDialog mInputDialog;
 	private List<PositionBean> list;
 	Handler handler = new Handler() {
 		public void handleMessage(android.os.Message msg) {
 			switch (msg.what) {
-			case CHANGE_START:
-				tv_start.setText("开始");
-				isReading = true;
-				break;
-			case CHANGE_STOP:
-				tv_start.setText("暂停");
-				isReading = false;
-				break;
+				case reader.msgreadepc:
+					if(isReading){
+						String epc = (String) msg.obj;
+						reFreshData(epc);
+					}
+					break;
+				case CHANGE_START:
+					tv_start.setText("开始盘点");
+					isReading = false;
+					break;
+				case CHANGE_STOP:
+					tv_start.setText("暂停盘点");
+					isReading = true;
+					break;
 			}
-		};
+		}
+
+		;
 	};
 	@Override
 	public StateType loadData() {
@@ -142,29 +145,6 @@ public class BindFragment extends BaseFragment {
 		mAdapter.notifyDataSetChanged();
 	}
 	protected void initEvent() {
-		BaseApplication.setOnConnectListener(new onConnectListener() {
-
-			@Override
-			public void onStatusChange(IvrJackStatus arg0) {
-			}
-
-			@Override
-			public void onInventory(String arg0) {
-				System.out.println(arg0);
-				List<String> epcs = Arrays.asList(arg0.split(";"));
-				reFreshData(epcs);
-			}
-				
-			@Override
-			public void onDisconnect() {
-				isReading = true;
-				handler.sendEmptyMessage(CHANGE_START);
-			}
-
-			@Override
-			public void onConnect() {
-			}
-		});
 		ivbtn1.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -229,54 +209,15 @@ public class BindFragment extends BaseFragment {
 		});
 		tv_start.setOnClickListener(new OnClickListener() {
 
-			private String mMessage;
-
 			@Override
 			public void onClick(View v) {
-				mMessage = "设备未连接,请先连接设备";
-				new Thread() {
-					public void run() {
-						if (BaseApplication.isConn) {
-							int result = BaseApplication.getService().readEPC(
-									isReading);// true为开启
-							switch (result) {
-							case -1:
-								mMessage = "电池电量低";
-								break;
-							case -2:
-								mMessage = "通讯失败,设备未连接";
-								break;
-							case 0:
-								if (isReading) {
-									mMessage = "开启成功";
-									handler.sendEmptyMessage(CHANGE_STOP);
-								} else {
-									mMessage = "暂停成功";
-									handler.sendEmptyMessage(CHANGE_START);
-								}
-								break;
-							case 1:
-								mMessage = "通讯失败";
-								break;
-							case 2:
-								mMessage = "未知错误";
-								break;
-							default:
-
-							}
-						} else {
-							Vibrator vibrator = (Vibrator) getActivity().getSystemService(Service.VIBRATOR_SERVICE);
-							vibrator.vibrate(1500);
-						}
-						UIUtils.runOnSafeThread(new Runnable() {
-
-							@Override
-							public void run() {
-								ToastUtils.showToast(mMessage);
-							}
-						});
-					}
-				}.start();
+				if(isReading){
+					reader.StopLoop();
+					handler.sendEmptyMessage(CHANGE_START);
+				}else{
+					reader.ReadtidLablesLoop(12);
+					handler.sendEmptyMessage(CHANGE_STOP);
+				}
 			}
 		});
 	}
@@ -391,6 +332,12 @@ public class BindFragment extends BaseFragment {
 			if (!data.contains(epc)) {
 				data.add(epc);
 			}
+		}
+		mAdapter.notifyDataSetChanged();
+	}
+	protected void reFreshData(String epc) {
+		if (!data.contains(epc)) {
+			data.add(epc);
 		}
 		mAdapter.notifyDataSetChanged();
 	}

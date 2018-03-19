@@ -3292,7 +3292,12 @@ containing a value of this type.
     }
     public static final class raw {
         public static final int beep=0x7f050000;
-        public static final int realm_properties=0x7f050001;
+        public static final int beep_err=0x7f050001;
+        public static final int beep_ok=0x7f050002;
+        public static final int chimes=0x7f050003;
+        public static final int didi=0x7f050004;
+        public static final int dudu=0x7f050005;
+        public static final int realm_properties=0x7f050006;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f060000;

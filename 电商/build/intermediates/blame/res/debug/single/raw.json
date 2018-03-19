@@ -1,10 +1,30 @@
 [
     {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/raw/didi.ogg",
+        "source": "/Users/hefuwei/Documents/Ele1/电商/src/main/res/raw/didi.ogg"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/raw/dudu.ogg",
+        "source": "/Users/hefuwei/Documents/Ele1/电商/src/main/res/raw/dudu.ogg"
+    },
+    {
         "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/raw/beep.ogg",
         "source": "/Users/hefuwei/Documents/Ele1/电商/src/main/res/raw/beep.ogg"
     },
     {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/raw/beep_ok.wav",
+        "source": "/Users/hefuwei/Documents/Ele1/电商/src/main/res/raw/beep_ok.wav"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/raw/beep_err.wav",
+        "source": "/Users/hefuwei/Documents/Ele1/电商/src/main/res/raw/beep_err.wav"
+    },
+    {
         "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/raw/realm_properties",
         "source": "/Users/hefuwei/Documents/Ele1/电商/src/main/res/raw/realm_properties"
+    },
+    {
+        "merged": "/Users/hefuwei/Documents/Ele1/电商/build/intermediates/res/merged/debug/raw/chimes.wav",
+        "source": "/Users/hefuwei/Documents/Ele1/电商/src/main/res/raw/chimes.wav"
     }
 ]

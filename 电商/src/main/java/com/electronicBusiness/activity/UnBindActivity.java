@@ -1,16 +1,8 @@
 package com.electronicBusiness.activity;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
-import rfid.ivrjacku1.IvrJackStatus;
-
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
-import android.app.Service;
 import android.os.Handler;
-import android.os.Vibrator;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ListView;
@@ -18,10 +10,8 @@ import android.widget.TextView;
 
 import com.electronicBusiness.R;
 import com.electronicBusiness.base.BaseActivity;
-import com.electronicBusiness.base.BaseApplication;
 import com.electronicBusiness.base.BaseHolder;
 import com.electronicBusiness.base.MyBaseAdapter;
-import com.electronicBusiness.base.BaseApplication.onConnectListener;
 import com.electronicBusiness.holder.BindEpcHolder;
 import com.electronicBusiness.manager.ConfigurationManager;
 import com.electronicBusiness.manager.OkHttpClientManager;
@@ -33,14 +23,16 @@ import com.lidroid.xutils.ViewUtils;
 import com.lidroid.xutils.view.annotation.ViewInject;
 import com.squareup.okhttp.Request;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import android.hardware.uhf.magic.reader;
+
 public class UnBindActivity extends BaseActivity {
 
 	@ViewInject(R.id.lv)
 	private ListView lv;
 	private List<String> data = new ArrayList<String>();
-	public final int CHANGE_START = 1;
-	public final int CHANGE_STOP = 2;
-	private boolean isReading = true;
 	@ViewInject(R.id.tv_start)
 	private TextView tv_start;
 	@ViewInject(R.id.tv_unbind)
@@ -49,17 +41,20 @@ public class UnBindActivity extends BaseActivity {
 	private TextView tv_clear;
 	private MyEpcAdapter mAdapter;
 	private AlertDialog mDialog;
+	public final int CHANGE_START = 2;
+	public final int CHANGE_STOP = 3;
+	private boolean isReading = false;
 	Handler handler = new Handler() {
 		public void handleMessage(android.os.Message msg) {
 			switch (msg.what) {
-			case CHANGE_START:
-				tv_start.setText("Start");
-				isReading = true;
-				break;
-			case CHANGE_STOP:
-				tv_start.setText("Stop");
-				isReading = false;
-				break;
+				case CHANGE_START:
+					tv_start.setText("Start");
+					isReading = true;
+					break;
+				case CHANGE_STOP:
+					tv_start.setText("Stop");
+					isReading = false;
+					break;
 			}
 		};
 	};
@@ -75,28 +70,6 @@ public class UnBindActivity extends BaseActivity {
 	@Override
 	protected void initEvent() {
 		super.initEvent();
-		BaseApplication.setOnConnectListener(new onConnectListener() {
-
-			@Override
-			public void onStatusChange(IvrJackStatus arg0) {
-			}
-
-			@Override
-			public void onInventory(String arg0) {
-				List<String> epcs = Arrays.asList(arg0.split(";"));
-				reFreshData(epcs);
-			}
-
-			@Override
-			public void onDisconnect() {
-				isReading = true;
-				handler.sendEmptyMessage(CHANGE_START);
-			}
-
-			@Override
-			public void onConnect() {
-			}
-		});
 		tv_clear.setOnClickListener(new OnClickListener() {
 
 			@Override
@@ -145,54 +118,15 @@ public class UnBindActivity extends BaseActivity {
 		});
 		tv_start.setOnClickListener(new OnClickListener() {
 
-			private String mMessage;
-
 			@Override
 			public void onClick(View v) {
-				mMessage = "设备未连接,请先连接设备";
-				new Thread() {
-					public void run() {
-						if (BaseApplication.isConn) {
-							int result = BaseApplication.getService().readEPC(
-									isReading);// true为开启
-							switch (result) {
-							case -1:
-								mMessage = "电池电量低";
-								break;
-							case -2:
-								mMessage = "通讯失败,设备未连接";
-								break;
-							case 0:
-								if (isReading) {
-									mMessage = "开启成功";
-									handler.sendEmptyMessage(CHANGE_STOP);
-								} else {
-									mMessage = "暂停成功";
-									handler.sendEmptyMessage(CHANGE_START);
-								}
-								break;
-							case 1:
-								mMessage = "通讯失败";
-								break;
-							case 2:
-								mMessage = "未知错误";
-								break;
-							default:
-
-							}
-						} else {
-							Vibrator vibrator = (Vibrator) getSystemService(Service.VIBRATOR_SERVICE);
-							vibrator.vibrate(1500);
-						}
-						runOnUiThread(new Runnable() {
-
-							@Override
-							public void run() {
-								ToastUtils.showToast(mMessage);
-							}
-						});
-					}
-				}.start();
+				if(isReading){
+					reader.StopLoop();
+					handler.sendEmptyMessage(CHANGE_START);
+				}else{
+					reader.ReadtidLablesLoop(12);
+					handler.sendEmptyMessage(CHANGE_STOP);
+				}
 			}
 		});
 	}

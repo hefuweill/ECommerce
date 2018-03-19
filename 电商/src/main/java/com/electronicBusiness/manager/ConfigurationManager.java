@@ -1,6 +1,7 @@
 package com.electronicBusiness.manager;
 
-import com.electronicBusiness.base.BaseApplication;
+
+import android.hardware.uhf.magic.reader;
 
 public class ConfigurationManager {
 	public static String project = "istore";
@@ -10,10 +11,11 @@ public class ConfigurationManager {
 	public static final int ANSHANGPINGPAN = 3;
 	public static int stopEquip()
 	{
-		return BaseApplication.getService().readEPC(false);
+		reader.StopLoop();
+		return 0;
 	}
 	public static int startEquip()
 	{
-		return BaseApplication.getService().readEPC(true);
+		return 0;
 	}
 }

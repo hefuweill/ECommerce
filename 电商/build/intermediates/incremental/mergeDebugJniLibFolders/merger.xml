@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/hefuwei/Documents/Ele1/电商/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/hefuwei/Documents/Ele1/电商/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/hefuwei/Documents/Ele1/电商/src/main/jniLibs"><file name="armeabi/libuhf-tools.so" path="/Users/hefuwei/Documents/Ele1/电商/src/main/jniLibs/armeabi/libuhf-tools.so"/></source></dataSet><dataSet config="debug"><source path="/Users/hefuwei/Documents/Ele1/电商/src/debug/jniLibs"/></dataSet></merger>

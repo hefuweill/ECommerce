@@ -2,18 +2,11 @@ package com.electronicBusiness.fragment;
 
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
-import android.app.Service;
-import android.content.Intent;
-import android.content.pm.LabeledIntent;
 import android.os.Handler;
-import android.os.Vibrator;
 import android.support.design.widget.FloatingActionButton;
-import android.text.TextUtils;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
-import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.ProgressBar;
@@ -21,15 +14,9 @@ import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.electronicBusiness.R;
-import com.electronicBusiness.activity.MipcaActivityCapture;
-import com.electronicBusiness.activity.SubmitInfoActivity;
-import com.electronicBusiness.activity.UnBindActivity;
-import com.electronicBusiness.base.BaseApplication;
-import com.electronicBusiness.base.BaseApplication.onConnectListener;
 import com.electronicBusiness.base.BaseFragment;
 import com.electronicBusiness.base.BaseHolder;
 import com.electronicBusiness.base.MyBaseAdapter;
-import com.electronicBusiness.domain.InputBean;
 import com.electronicBusiness.domain.MoveBean;
 import com.electronicBusiness.domain.PositionBean;
 import com.electronicBusiness.holder.BindEpcHolder;
@@ -38,7 +25,6 @@ import com.electronicBusiness.manager.OkHttpClientManager;
 import com.electronicBusiness.manager.OkHttpClientManager.Param;
 import com.electronicBusiness.manager.OkHttpClientManager.ResultCallback;
 import com.electronicBusiness.utils.ToastUtils;
-import com.electronicBusiness.utils.UIUtils;
 import com.electronicBusiness.view.LoadingPager;
 import com.electronicBusiness.view.LoadingPager.StateType;
 import com.google.gson.Gson;
@@ -47,11 +33,10 @@ import com.lidroid.xutils.view.annotation.ViewInject;
 import com.squareup.okhttp.Request;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 
-import rfid.ivrjacku1.IvrJackStatus;
+import android.hardware.uhf.magic.reader;
 
 public class MoveFragment extends BaseFragment {
     @ViewInject(R.id.pb)
@@ -60,8 +45,6 @@ public class MoveFragment extends BaseFragment {
     private Spinner spinner;
     @ViewInject(R.id.fab)
     private FloatingActionButton fab;
-    public final int CHANGE_START = 1;
-    public final int CHANGE_STOP = 2;
     @ViewInject(R.id.tv_start)
     private TextView tv_start;
     @ViewInject(R.id.tv_submit)
@@ -73,18 +56,26 @@ public class MoveFragment extends BaseFragment {
     @ViewInject(R.id.ll)
     private LinearLayout ll;
     private List<String> data = new ArrayList<String>();
-    private boolean isReading = true;
+    public final int CHANGE_START = 2;
+    public final int CHANGE_STOP = 3;
+    private boolean isReading = false;
     private List<PositionBean> list;
     Handler handler = new Handler() {
         public void handleMessage(android.os.Message msg) {
             switch (msg.what) {
+                case reader.msgreadepc:
+                    if(isReading){
+                        String epc = (String) msg.obj;
+                        reFreshData(epc);
+                    }
+                    break;
                 case CHANGE_START:
-                    tv_start.setText("开始");
-                    isReading = true;
+                    tv_start.setText("开始盘点");
+                    isReading = false;
                     break;
                 case CHANGE_STOP:
-                    tv_start.setText("暂停");
-                    isReading = false;
+                    tv_start.setText("暂停盘点");
+                    isReading = true;
                     break;
             }
         }
@@ -126,78 +117,15 @@ public class MoveFragment extends BaseFragment {
             }
         });
         tv_start.setOnClickListener(new OnClickListener() {
-
-            private String mMessage;
-
             @Override
             public void onClick(View v) {
-                mMessage = "设备未连接,请先连接设备";
-                new Thread() {
-                    public void run() {
-                        if (BaseApplication.isConn) {
-                            int result = BaseApplication.getService().readEPC(
-                                    isReading);// true为开启
-                            switch (result) {
-                                case -1:
-                                    mMessage = "电池电量低";
-                                    break;
-                                case -2:
-                                    mMessage = "通讯失败,设备未连接";
-                                    break;
-                                case 0:
-                                    if (isReading) {
-                                        mMessage = "开启成功";
-                                        handler.sendEmptyMessage(CHANGE_STOP);
-                                    } else {
-                                        mMessage = "暂停成功";
-                                        handler.sendEmptyMessage(CHANGE_START);
-                                    }
-                                    break;
-                                case 1:
-                                    mMessage = "通讯失败";
-                                    break;
-                                case 2:
-                                    mMessage = "未知错误";
-                                    break;
-                                default:
-
-                            }
-                        } else {
-                            Vibrator vibrator = (Vibrator) getActivity().getSystemService(Service.VIBRATOR_SERVICE);
-                            vibrator.vibrate(1500);
-                        }
-                        UIUtils.runOnSafeThread(new Runnable() {
-
-                            @Override
-                            public void run() {
-                                ToastUtils.showToast(mMessage);
-                            }
-                        });
-                    }
-                }.start();
-            }
-        });
-        BaseApplication.setOnConnectListener(new onConnectListener() {
-
-            @Override
-            public void onStatusChange(IvrJackStatus arg0) {
-            }
-
-            @Override
-            public void onInventory(String arg0) {
-                System.out.println(arg0);
-                List<String> epcs = Arrays.asList(arg0.split(";"));
-                reFreshData(epcs);
-            }
-
-            @Override
-            public void onDisconnect() {
-                isReading = true;
-                handler.sendEmptyMessage(CHANGE_START);
-            }
-
-            @Override
-            public void onConnect() {
+                if(isReading){
+                    reader.StopLoop();
+                    handler.sendEmptyMessage(CHANGE_START);
+                }else{
+                    reader.ReadtidLablesLoop(12);
+                    handler.sendEmptyMessage(CHANGE_STOP);
+                }
             }
         });
         fab.setOnClickListener(new OnClickListener() {
@@ -230,6 +158,13 @@ public class MoveFragment extends BaseFragment {
             if (!data.contains(epc)) {
                 data.add(epc);
             }
+        }
+        mAdapter.notifyDataSetChanged();
+    }
+
+    protected void reFreshData(String epc) {
+        if (!data.contains(epc)) {
+            data.add(epc);
         }
         mAdapter.notifyDataSetChanged();
     }

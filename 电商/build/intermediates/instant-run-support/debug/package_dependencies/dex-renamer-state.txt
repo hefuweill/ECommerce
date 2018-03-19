@@ -1,4 +1,4 @@
-#Mon Mar 19 18:33:24 CST 2018
+#Mon Mar 19 19:34:58 CST 2018
 file.2=/Users/hefuwei/Documents/Ele1/电商/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_40dcd1bbfe3370dd208dcb353b2c529e5eaff5a5/classes.dex
 base.2=/Users/hefuwei/Documents/Ele1/电商/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_40dcd1bbfe3370dd208dcb353b2c529e5eaff5a5
 file.1=/Users/hefuwei/Documents/Ele1/电商/build/intermediates/transforms/dex/debug/folders/1000/10/classes_470ebd9fe7b3d2084c549040bf5b77e3ca9b2d01/classes.dex
